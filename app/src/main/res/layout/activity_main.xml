@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rezoan503s.camera.MainActivity">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/mainmenu_floatingbutton_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="36dp"
+        android:visibility="visible"
+        app:backgroundTint="@android:color/white"
+        app:elevation="12dp"
+        app:fabSize="normal"
+        app:rippleColor="@android:color/transparent"
+        app:srcCompat="@drawable/add"
+         />
+
+    <pl.droidsonroids.gif.GifTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/giffile" />
+
+</RelativeLayout>
